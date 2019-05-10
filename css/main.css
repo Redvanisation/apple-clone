@@ -174,11 +174,14 @@ body {
     line-height: 1.3;
 }
 
+.main-h3 {
+    line-height: 3;
+
+}
+
 .main-link:link,
 .main-link:visited {
-    display: inline-block;
     font-size: 1.5rem;
-    line-height: 3;
     text-decoration: none;
     color: #fff;
     margin-right: .5rem;
@@ -192,6 +195,7 @@ body {
     font-size: 2rem;
     position: relative;
     top: .25rem;
+    margin-left: .5rem;
 }
 
 
@@ -201,11 +205,12 @@ body {
 
 .aside {
     margin-top: 2px;
+    position: relative;
+    z-index: 19999999;
 }
 
 .aside-ul {
-    position: relative;
-    z-index: 1;
+
     overflow: hidden;
     margin: 0 auto;
     min-width: 1024px;
@@ -253,12 +258,14 @@ body {
 
 .footer {
     /* border: 1px solid red; */
+    position: relative;
     width: 80%;
     margin: 1rem auto;
     margin-bottom: 0;
     overflow: hidden;
     color: #6e6e6e;
     font-size: 10px;
+    z-index: 99999;
 }
 
 .footer-text {
