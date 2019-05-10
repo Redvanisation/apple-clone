@@ -12,6 +12,10 @@ body {
 
     background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
 
+    position: absolute;
+    top: 4rem;
+    left: 50%;
+    transform: translateX(-50%);
     display: block;
     width: 980px;
     height: 36px;
@@ -44,7 +48,6 @@ body {
 }
 
 .nav-li:not(:last-child) {
-    /* border-right: 2px solid white; */
     border-width: 0 2px 0 1px;
     border-top-width: 0px;
     border-right-width: 2px;
@@ -114,7 +117,7 @@ body {
 }
 
 .nav-icon {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 
@@ -125,11 +128,19 @@ body {
 
 
 .main {
-
+    border: 1px solid green;
+    width: 1440px;
+    height: 90vh;
+    margin: 0 auto;
+    margin-top: -13rem;
+    background-image: url('../img/your_verse_hero_2x.jpg');
+    background-position: bottom;
+    background-size: cover;
+    overflow: hidden;
 }
 
 .main-hero {
-
+    overflow: hidden;
 }
 
 
@@ -138,24 +149,55 @@ body {
 
 
 .aside {
-
+    margin-top: 2px;
 }
 
 .aside-ul {
-
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin: 0 auto;
+    min-width: 1024px;
+    width: 100%;
+    max-width: 1440px;
+    height: 200px;
+    text-align: center;
 }
 
 .aside-li {
-
+    position: relative;
+    z-index: 1;
+    float: left;
+    overflow: hidden;
+    margin: 0;
+    width: 25%;
+    height: 200px;
+    /* border: 1px solid black; */
 }
 
 .aside-link:link,
 .aside-link:visited {
-
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
 }
 
 .aside-link:hover {
 
+}
+
+.aside-img {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    margin-left: -180px;
+    max-width: 100%;
 }
 
 
