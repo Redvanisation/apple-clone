@@ -86,7 +86,7 @@ body {
     transform: translate(-30%, -50%);
     /* height: 10px; */
 
-
+    
     width: 100%;
     height: 19px;
     padding: 2px 1px;
@@ -101,6 +101,7 @@ body {
     padding: 8px 20px;
     background: none;
     transition: all .1s;
+    
 }
 
 .nav-input:focus {
@@ -109,12 +110,21 @@ body {
     outline: none;
 }
 
+.search-icon {
+    position: absolute;
+    top: 12px;
+    left: 29px;
+}
+
+.nav-input:focus + .search-icon {
+    color: #808080;
+}
+
 
 .nav-link:link,
 .nav-link:visited {
     text-decoration: none;
     color: white;
-    /* font-family: sans-serif; */
 
 }
 
