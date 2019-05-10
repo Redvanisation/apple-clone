@@ -14,10 +14,10 @@ How to setup a repo of this page on your local machine:
 
 Open your git bash and cd to the location you'd like to put your files the run the command below.
 
->git clone https://github.com/tundeiness/New-York-Times-clone.git
+>git clone https://github.com/Redvanisation/apple-clone.git
 
 
 Here is the link to the live version of this project
-[here](https://rawcdn.githack.com/tundeiness/New-York-Times-clone/06d2fa07139db369b8c308625cd8300b7862e567/index.html)
+[HERE](https://rawcdn.githack.com/Redvanisation/apple-clone/65092ec8ce34e981a06688ce22d1582cdafd4921/index.html)
 
 

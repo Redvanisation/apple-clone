@@ -114,6 +114,7 @@ body {
     position: absolute;
     top: 12px;
     left: 29px;
+    color: #fff;
 }
 
 .nav-input:focus + .search-icon {
