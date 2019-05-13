@@ -60,17 +60,13 @@ body {
 }
 
 .nav {
-    -webkit-background: #707070;
     background: #707070;
 
-    -webkit-background: linear-gradient(top, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, .45) 100%), linear-gradient(left, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) .2%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0, .2) 100%), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, linear-gradient(bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
-    background: linear-gradient(top, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, .45) 100%), linear-gradient(left, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) .2%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0, .2) 100%), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, linear-gradient(bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
-
-    -webkit-background: -moz-linear-gradient(top, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, .45) 100%), -moz-linear-gradient(left, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) .2%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0, .2) 100%), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -moz-linear-gradient(bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
     background: -moz-linear-gradient(top, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, .45) 100%), -moz-linear-gradient(left, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) .2%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0, .2) 100%), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -moz-linear-gradient(bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
 
-    -webkit-background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
     background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+
+    background: linear-gradient(top, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, .45) 100%), linear-gradient(left, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) .2%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0, .2) 100%), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, linear-gradient(bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
 
     position: absolute;
     top: 4rem;
@@ -114,16 +110,20 @@ body {
     border-right-style: solid;
     border-bottom-style: solid;
     border-left-style: solid;
+
     -o-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F%2BKwQEADZUCf37PGokAAAAASUVORK5CYII%3D) 0 2 0 1;
     -ms-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F%2BKwQEADZUCf37PGokAAAAASUVORK5CYII%3D) 0 2 0 1;
     -moz-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F%2BKwQEADZUCf37PGokAAAAASUVORK5CYII%3D) 0 2 0 1;
     -webkit-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F%2BKwQEADZUCf37PGokAAAAASUVORK5CYII%3D) 0 2 0 1;
+    border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F%2BKwQEADZUCf37PGokAAAAASUVORK5CYII%3D) 0 2 0 1;
     
 }
 
 .nav-li:hover:not(:last-child) {
     background: #575757;
-    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAkCAQAAADifZiHAAAAJ0lEQ…zE8JeJ4R8q%2Bo%2BKCIH%2FjEA1TAyMSIgJRkIQM9BYAGa0Dj%2FXpUiAAAAAAElFTkSuQmCC) repeat-x 0 0, url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAABCAQAAACvIOyMAAAAE0lEQVQIW2P8z8jAwMAIh0wICAAa0gETv9XXOgAAAABJRU5ErkJggg%3D%3D) repeat-y 100% 0, url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAABCAQAAACvIOyMAAAAEklEQVQIW2P8L8TwDwn%2Bh0MGAKnjDAIoAAlcAAAAAElFTkSuQmCC) repeat-y 0 0, rgba(0, 0, 0, .4);
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAkCAQAAADifZiHAAAAJ0lEQ…zE8JeJ4R8q%2Bo%2BKCIH%2FjEA1TAyMSIgJRkIQM9BYAGa0Dj%2FXpUiAAAAAAElFTkSuQmCC) repeat-x 0 0, 
+    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAABCAQAAACvIOyMAAAAE0lEQVQIW2P8z8jAwMAIh0wICAAa0gETv9XXOgAAAABJRU5ErkJggg%3D%3D) repeat-y 100% 0, 
+    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAABCAQAAACvIOyMAAAAEklEQVQIW2P8L8TwDwn%2Bh0MGAKnjDAIoAAlcAAAAAElFTkSuQmCC) repeat-y 0 0, rgba(0, 0, 0, .4);
 }
 
 .nav-span,
@@ -138,8 +138,6 @@ body {
 
 .nav-input {
     transform: translate(-30%, -50%);
-    /* height: 10px; */
-
     
     width: 100%;
     height: 19px;
@@ -201,11 +199,9 @@ body {
     background-image: url('../img/your_verse_hero_2x.jpg');
     background-position: bottom;
     background-size: cover;
-    /* overflow: hidden; */
 }
 
 .main-hero {
-    /* overflow: hidden; */
     position: relative;
     z-index: 900;
     width: 100%;
@@ -223,8 +219,6 @@ body {
 }
 
 .main-h2 {
-    /* display: inline-block; */
-    /* width: 70%; */
     font-size: 2rem;
     line-height: 1.3;
 }
@@ -312,7 +306,6 @@ body {
 
 
 .footer {
-    /* border: 1px solid red; */
     position: relative;
     width: 80%;
     margin: 1rem auto;
