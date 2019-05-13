@@ -18,6 +18,6 @@ Open your git bash and cd to the location you'd like to put your files the run t
 
 
 Here is the link to the live version of this project
-[HERE](https://rawcdn.githack.com/Redvanisation/apple-clone/65092ec8ce34e981a06688ce22d1582cdafd4921/index.html)
+[HERE](https://rawcdn.githack.com/Redvanisation/apple-clone/07312d6372d6fc2384b64325884ca8660343f57c/index.html)
 
 
