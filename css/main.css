@@ -69,7 +69,7 @@ body {
     background: linear-gradient(top, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, .45) 100%), linear-gradient(left, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) .2%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0, .2) 100%), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, linear-gradient(bottom, #666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
 
     position: relative;
-    top: 4rem;
+    top: 35%;
     /* left: 50%; */
     /* transform: translateX(-50%); */
     display: block;
@@ -207,7 +207,7 @@ body {
     width: 100%;
     height: 100%;
     color: white;
-    top: 45%;
+    top: 40%;
     text-align: center;
     font-weight: lighter;
     font-family: sans-serif;
